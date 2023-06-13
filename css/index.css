@@ -12,3 +12,9 @@ h2 {
     font-size: 1.2em;
     text-align: justify;
 }
+@media only screen and (max-width: 650px) {
+    .mision {
+        padding-top: 20px;
+        width: 80%;
+    }
+}
