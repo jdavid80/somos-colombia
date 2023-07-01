@@ -9,14 +9,33 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+     <!-- Encabezado para todos los archivos -->
     <nav>
-        <img class="main-logo" src="img/main-logo_300x198.png" alt="">
-        <h1 class="main-title">Corporación Somos Colombia</h1>
+        <div class="box-main-logo">
+            <img class="img-main-logo" src="img/main-logo_300x198.png" alt="">
+        </div>
+        <div class="box-main-title">
+            <h1 class="main-title">Corporación Somos Colombia</h1>
+            <h1 class="main-title-phone">Corporación<br>Somos Colombia</h1>
+        </div>
+        <div class="box-main-menu">
+            <div id="menuBarra" class="menu-barra">&#9776</div>
+            <ul class="main-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="documentos-dian.html">Documentación DIAN</a></li>
+            </ul>
+        </div>
     </nav>
-    <div class="main-content">
+    <div id="mainMenuMovil" class="main-menu-movil-hidden">
+        <ul class="menu-movil">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="documentos-dian.html">Documentación DIAN</a></li>
+        </ul>
+    </div>
+    <div class="main-img">
         <img class="img-portada" src="img/portada_1477x907.jpg" alt="">
     </div>
-    <div class="main-content-phone">
+    <div class="main-img-phone">
         <img class="img-portada-phone" src="img/portada_phone_768x1024.jpeg" alt="">
     </div>
     <div class="mision">
@@ -39,5 +58,6 @@
             acciones.
             </p>
     </div>
+    <script src="js/index.js"></script>
 </body>
 </html>
