@@ -49,7 +49,7 @@ nav {
   top: 0;
   width: 100%;
   grid-template: "box-main-logo box-main-title  empty-title box-main-menu" / 
-                  200px         520px           1fr         350px;
+                  200px         520px           1fr         420px;
   z-index: 10,
 }
 .box-main-logo {
